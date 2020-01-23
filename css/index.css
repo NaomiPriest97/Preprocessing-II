@@ -1,3 +1,17 @@
+.btn {
+  display: block;
+  background-color: teal;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +182,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.topnav {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 148.5px;
+  width: 80%;
+  border-bottom: 2px dashed lightgrey;
+  padding: 20px;
+  border-width: 100%;
+}
+.topnav h1 {
+  display: flex;
+  width: 40%;
+  font-size: 5rem;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.topnav a {
+  display: flex;
+  padding: 10px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +215,30 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 148.5px;
+  margin-right: 148.5px;
+  text-align: justify;
+}
+header img {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+header .headingwelcome {
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  text-align: justify;
+  width: 80%;
+  margin-left: 100px;
+  padding: 20px;
+  border-bottom: 2px dashed lightgray;
 }
 .home .content-section {
   margin: 30px 0;
