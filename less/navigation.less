@@ -1,16 +1,37 @@
 // Navigation Styles here
 
-.topnav{
+nav{
     display:flex;
+    flex-direction:row;
     justify-content:center;
     margin-left:150px;
     margin-right:148.5px;
-    
     width:80%;
     border-bottom:2px dashed lightgrey;
     padding:20px;
-    border-width:100%;
     
+    .topnav{
+        display:flex;
+        flex-direction:row;
+        @media(max-width:500px){
+            display:flex;
+            justify-content:space-evenly;
+            margin-left:40px;
+            width:100%;
+            padding-bottom:10px;
+            
+            
+        }
+    }
+    
+    @media(max-width:500px) {
+        display:flex;
+        justify-content:none;
+        flex-direction:column;
+        margin-left:0px;
+        padding:0px;
+        border-bottom:none;
+    }
 
     h1{
         display:flex;
@@ -19,12 +40,26 @@
         margin-right:30px;
         margin-top:10px;
 
+        @media(max-width:500px) {
+            margin-right:0px;
+            margin-left:180px;
+            font-size:3rem;
+        }
+
     }
     a{
         display:flex;
+        flex-direction:row;
         padding:10px;
         font-size:1.8rem;
         margin-top:10px;
         
+        @media(max-width:500px) {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            width:24%;
+            padding:0px;
+        }
     }
 }
